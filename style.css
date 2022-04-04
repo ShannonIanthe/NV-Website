@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 30px;
+
+}
+
+.nv {
+    font-family: 'Neue Haas Grotesk Display Pro';
+}
+
+.joey {
+    display: flex;
+    align-items: flex-end;
+    color: rgb(220, 220, 220);
+    font-family: 'Windsor', sans-serif;
+    letter-spacing: .5px;
+    font-size: 15px;
+}
+
+.joey-face {
+    height: 1.5rem;
+    width: 1.5rem;
+    padding-right: .5rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Neue Haas Grotesk Display Pro';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+a:hover {
+    color: #e8084b;
+}
+
+.main-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    padding-top: 70px;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+h1 {
+    font-size: clamp(2rem, 1rem + 10vw, 4rem);
+    position: relative;
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    animation: mylastmove 5s infinite;
+    animation-duration: 3s;
+}
+
+
